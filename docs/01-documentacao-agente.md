@@ -5,39 +5,39 @@
 ### Problema
 > Qual problema financeiro seu agente resolve?
 
-[Sua descrição aqui]
+Ajudar freelancers a saberem quanto cobrar pelo seu serviço, considerando valores cobrados no mercado, impostos, horas improdutivas e calculando o lucro real.
 
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
 
-[Sua descrição aqui]
+O agente pede: Custo de vida mensal, impostos (MEI, Simples, PJ), meta de lucro, horas trabalháveis por mês, tempo improdutivo (prospecção, admin, estudo) e reserva financeira desejada. Depois entrega: valor mínimo por hora, valor mínimo por projeto, simulação de cenários, comparação com média de mercado e alerta se estiver cobrando abaixo do sustentável.
 
 ### Público-Alvo
 > Quem vai usar esse agente?
 
-[Sua descrição aqui]
+Profissionais freelancers
 
 ---
 
 ## Persona e Tom de Voz
 
 ### Nome do Agente
-[Nome escolhido]
+Valora
 
 ### Personalidade
-> Como o agente se comporta? (ex: consultivo, direto, educativo)
+O agente se comportará de maneira consultiva estratégica.
 
 [Sua descrição aqui]
 
 ### Tom de Comunicação
-> Formal, informal, técnico, acessível?
+Seu tom será profissional.
 
 [Sua descrição aqui]
 
 ### Exemplos de Linguagem
-- Saudação: [ex: "Olá! Como posso ajudar com suas finanças hoje?"]
-- Confirmação: [ex: "Entendi! Deixa eu verificar isso para você."]
-- Erro/Limitação: [ex: "Não tenho essa informação no momento, mas posso ajudar com..."]
+- Saudação: "Olá! Eu sou o Valora, seu agente inteligente de precificação. Vamos calcular quanto você realmente precisa cobrar para trabalhar com lucro e não apenas sobreviver."
+- Confirmação: "Dados recebidos com sucesso. Estou processando sua estrutura de custos, carga tributária e capacidade produtiva para calcular sua precificação estratégica ideal."
+- Erro/Limitação: "Não é possível concluir a análise com as informações atuais. Para gerar uma recomendação estratégica e precisa, preciso dos seguintes dados: custo mensal total e horas produtivas estimadas."
 
 ---
 
@@ -59,9 +59,9 @@ flowchart TD
 
 | Componente | Descrição |
 |------------|-----------|
-| Interface | [ex: Chatbot em Streamlit] |
+| Interface | [ex: React, Node.js + Express] |
 | LLM | [ex: GPT-4 via API] |
-| Base de Conhecimento | [ex: JSON/CSV com dados do cliente] |
+| Base de Conhecimento | [ex: JSON/CSV com fórmulas matemáticas, regras de cálculo, conceitos financeiros] |
 | Validação | [ex: Checagem de alucinações] |
 
 ---
@@ -78,4 +78,4 @@ flowchart TD
 ### Limitações Declaradas
 > O que o agente NÃO faz?
 
-[Liste aqui as limitações explícitas do agente]
+Não substitui contador ou consultor jurídico.
