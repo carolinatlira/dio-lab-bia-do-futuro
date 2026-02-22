@@ -57,10 +57,10 @@ flowchart TD
 
 | Componente | Descrição |
 |------------|-----------|
-| Interface | [ex: React, Node.js + Express] |
-| LLM | [ex: GPT-4 via API] |
-| Base de Conhecimento | [ex: JSON/CSV com fórmulas matemáticas, regras de cálculo, conceitos financeiros] |
-| Validação | [ex: Checagem de alucinações] |
+| Interface | React, Node.js + Express |
+| LLM |  GPT-4 via API |
+| Base de Conhecimento |  JSON/CSV com fórmulas matemáticas, regras de cálculo, conceitos financeiros |
+| Validação |  Checagem de alucinações |
 
 ---
 
