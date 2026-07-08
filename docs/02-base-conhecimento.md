@@ -2,7 +2,7 @@
 
 ## Dados Utilizados
 
-Descreva se usou os arquivos da pasta `data`, por exemplo:
+Os arquivos usados se encontram na pasta data:
 
 | Arquivo | Formato | Utilização no Agente |
 |---------|---------|---------------------|
