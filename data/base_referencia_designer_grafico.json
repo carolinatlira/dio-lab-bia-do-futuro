@@ -1,0 +1,95 @@
+{
+  "profissao": "Designer Gráfico Freelancer",
+
+  "niveis_experiencia": {
+    "iniciante": {
+      "valor_hora": {
+        "min": 40,
+        "medio": 55,
+        "max": 70
+      },
+      "ticket_medio_projeto": {
+        "min": 400,
+        "medio": 800,
+        "max": 1500
+      },
+      "horas_faturaveis_mes": 90
+    },
+
+    "pleno": {
+      "valor_hora": {
+        "min": 80,
+        "medio": 100,
+        "max": 130
+      },
+      "ticket_medio_projeto": {
+        "min": 1500,
+        "medio": 2500,
+        "max": 5000
+      },
+      "horas_faturaveis_mes": 120
+    },
+
+    "senior": {
+      "valor_hora": {
+        "min": 150,
+        "medio": 190,
+        "max": 250
+      },
+      "ticket_medio_projeto": {
+        "min": 5000,
+        "medio": 9000,
+        "max": 18000
+      },
+      "horas_faturaveis_mes": 140
+    }
+  },
+
+  "custos_operacionais_medios": {
+    "internet": 120,
+    "energia": 180,
+    "softwares": 350,
+    "armazenamento_nuvem": 50,
+    "marketing": 250,
+    "contador": 200,
+    "equipamentos": 300
+  },
+
+  "margens_recomendadas": {
+    "minima": 20,
+    "ideal": 30,
+    "premium": 40
+  },
+
+  "regras_negocio": [
+    "Nunca recomendar valor inferior ao custo operacional.",
+    "Utilizar apenas horas faturáveis no cálculo do valor/hora.",
+    "Adicionar a margem de lucro definida pelo usuário.",
+    "Alertar quando o valor cobrado estiver mais de 15% abaixo da média do mercado.",
+    "Considerar custos pessoais e profissionais na formação do preço."
+  ],
+
+  "benchmarks": {
+    "iniciante": {
+      "faturamento_medio_mensal": 4500,
+      "projetos_mes": 6,
+      "ticket_medio": 750
+    },
+    "pleno": {
+      "faturamento_medio_mensal": 12000,
+      "projetos_mes": 7,
+      "ticket_medio": 2200
+    },
+    "senior": {
+      "faturamento_medio_mensal": 25000,
+      "projetos_mes": 8,
+      "ticket_medio": 7000
+    }
+  },
+
+  "mensagens": {
+    "abaixo_mercado": "Sua precificação está significativamente abaixo da média para designers gráficos com seu nível de experiência.",
+    "na_media": "Sua precificação está alinhada ao mercado de design gráfico.",
+    "acima_media": "Sua precificação está acima da média do mercado. Certifique-se de comunicar claramente o valor agregado dos seus serviços."
+  }
+}
