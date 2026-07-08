@@ -1,0 +1,135 @@
+{
+  "conceitos_financeiros": {
+    "versao": "1.0",
+
+    "conceitos": [
+      {
+        "nome": "Faturamento Bruto",
+        "descricao": "Valor total recebido pela prestação de serviços antes da dedução de impostos, taxas e despesas.",
+        "aplicacao": "Utilizado para acompanhar o volume de vendas do freelancer."
+      },
+      {
+        "nome": "Receita Líquida",
+        "descricao": "Valor obtido após a dedução de impostos, descontos e outras retenções sobre o faturamento bruto.",
+        "aplicacao": "Representa quanto efetivamente entra no negócio."
+      },
+      {
+        "nome": "Custo Fixo",
+        "descricao": "Despesa que permanece relativamente constante independentemente da quantidade de projetos executados.",
+        "exemplos": [
+          "Internet",
+          "Software de design",
+          "Assinaturas",
+          "Contador",
+          "Coworking"
+        ],
+        "aplicacao": "Deve ser distribuído entre todos os projetos realizados."
+      },
+      {
+        "nome": "Custo Variável",
+        "descricao": "Despesa que varia conforme o volume de trabalho realizado.",
+        "exemplos": [
+          "Impressões",
+          "Banco de imagens",
+          "Comissões",
+          "Fretes",
+          "Terceirizações"
+        ],
+        "aplicacao": "É considerado apenas quando existir no projeto."
+      },
+      {
+        "nome": "Lucro",
+        "descricao": "Valor restante após o pagamento de todos os custos, despesas e tributos.",
+        "aplicacao": "Representa o retorno financeiro do trabalho."
+      },
+      {
+        "nome": "Margem de Lucro",
+        "descricao": "Percentual do preço de venda que corresponde ao lucro.",
+        "formula": "(Lucro ÷ Receita) × 100",
+        "aplicacao": "Permite avaliar a rentabilidade dos serviços."
+      },
+      {
+        "nome": "Ponto de Equilíbrio",
+        "descricao": "Valor mínimo de faturamento necessário para cobrir todos os custos e despesas sem gerar lucro ou prejuízo.",
+        "aplicacao": "Ajuda a definir metas mínimas de faturamento."
+      },
+      {
+        "nome": "Fluxo de Caixa",
+        "descricao": "Controle das entradas e saídas de dinheiro durante determinado período.",
+        "aplicacao": "Auxilia no planejamento financeiro e evita falta de capital."
+      },
+      {
+        "nome": "Reserva Financeira",
+        "descricao": "Valor destinado para cobrir imprevistos ou períodos de baixa demanda.",
+        "aplicacao": "Aumenta a segurança financeira do freelancer."
+      },
+      {
+        "nome": "Horas Faturáveis",
+        "descricao": "Horas efetivamente cobradas dos clientes.",
+        "aplicacao": "São utilizadas no cálculo do valor da hora de trabalho."
+      },
+      {
+        "nome": "Horas Não Faturáveis",
+        "descricao": "Tempo dedicado a atividades administrativas, marketing, prospecção, reuniões e capacitação.",
+        "aplicacao": "Devem ser consideradas no planejamento da capacidade produtiva."
+      },
+      {
+        "nome": "Ticket Médio",
+        "descricao": "Valor médio recebido por projeto ou cliente.",
+        "formula": "Faturamento ÷ Número de projetos",
+        "aplicacao": "Permite avaliar a evolução da precificação."
+      },
+      {
+        "nome": "Capacidade Produtiva",
+        "descricao": "Quantidade máxima de horas faturáveis disponíveis em um mês.",
+        "aplicacao": "Evita superestimar a disponibilidade para novos projetos."
+      },
+      {
+        "nome": "Precificação Baseada em Custos",
+        "descricao": "Método que considera todos os custos da atividade antes da aplicação da margem de lucro.",
+        "aplicacao": "Garante sustentabilidade financeira."
+      },
+      {
+        "nome": "Precificação Baseada em Valor",
+        "descricao": "Método que considera o valor percebido pelo cliente, além dos custos de execução.",
+        "aplicacao": "Pode aumentar a rentabilidade em projetos de maior impacto."
+      },
+      {
+        "nome": "ROI (Retorno sobre Investimento)",
+        "descricao": "Indicador utilizado para medir o retorno obtido em relação ao valor investido.",
+        "formula": "((Retorno - Investimento) ÷ Investimento) × 100",
+        "aplicacao": "Avalia investimentos em marketing, equipamentos e capacitação."
+      }
+    ],
+
+    "boas_praticas": [
+      "Separar finanças pessoais e profissionais.",
+      "Registrar todas as receitas e despesas.",
+      "Atualizar o fluxo de caixa regularmente.",
+      "Revisar a precificação periodicamente.",
+      "Criar uma reserva financeira para períodos de baixa demanda.",
+      "Controlar indicadores financeiros mensalmente."
+    ],
+
+    "indicadores_recomendados": [
+      "Faturamento mensal",
+      "Lucro líquido",
+      "Margem de lucro",
+      "Ticket médio",
+      "Horas faturáveis",
+      "Horas não faturáveis",
+      "Quantidade de projetos concluídos",
+      "Receita por cliente",
+      "Custos fixos",
+      "Custos variáveis"
+    ],
+
+    "regras_utilizadas_pelo_agente": [
+      "Nunca recomendar preços inferiores ao custo total do serviço.",
+      "Considerar apenas horas faturáveis para calcular o valor da hora.",
+      "Incluir impostos, custos fixos e custos variáveis antes da margem de lucro.",
+      "Alertar quando a margem de lucro estiver abaixo da meta definida pelo usuário.",
+      "Sugerir revisão da precificação quando o faturamento não cobrir o ponto de equilíbrio."
+    ]
+  }
+}
