@@ -1,0 +1,45 @@
+{
+  "nome": "Mariana Oliveira",
+  "idade": 31,
+  "profissao": "Designer Gráfico Freelancer",
+  "nivel_experiencia": "Pleno",
+  "cidade": "Belo Horizonte",
+  "estado": "MG",
+  "pais": "Brasil",
+
+  "regime_tributario": "MEI",
+
+  "clientes": {
+    "mercado": "Brasil",
+    "percentual_recorrentes": 60
+  },
+
+  "custos": {
+    "moradia": 1800.00,
+    "alimentacao": 900.00,
+    "transporte": 300.00,
+    "internet": 120.00,
+    "energia": 180.00,
+    "software": 320.00,
+    "marketing": 150.00,
+    "contador": 180.00,
+    "outros": 350.00
+  },
+
+  "meta_financeira": {
+    "renda_liquida_desejada": 8000.00,
+    "reserva_financeira_percentual": 15,
+    "lucro_desejado_percentual": 25
+  },
+
+  "jornada": {
+    "horas_semanais": 40,
+    "horas_faturaveis_mes": 120,
+    "horas_nao_faturaveis_mes": 40
+  },
+
+  "precificacao_atual": {
+    "valor_hora": 60.00,
+    "ticket_medio_projeto": 900.00
+  }
+}
