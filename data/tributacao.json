@@ -1,0 +1,146 @@
+{
+  "tributacao": {
+    "pais": "Brasil",
+    "versao": "2026",
+
+    "regimes_tributarios": [
+      {
+        "nome": "MEI",
+        "descricao": "Modelo simplificado para pequenos empreendedores que atendem aos requisitos legais.",
+
+        "limite_faturamento_anual": 81000,
+
+        "forma_pagamento": "Pagamento mensal por meio do DAS.",
+
+        "principais_caracteristicas": [
+          "Tributação simplificada.",
+          "Permite emissão de nota fiscal.",
+          "Pode contratar até um empregado pelas regras vigentes em 2026.",
+          "Necessário entregar a Declaração Anual do MEI."
+        ],
+
+        "vantagens": [
+          "Baixa burocracia.",
+          "Tributos simplificados.",
+          "Cobertura previdenciária mediante recolhimento."
+        ],
+
+        "desvantagens": [
+          "Limite de faturamento anual.",
+          "Nem todas as atividades podem ser enquadradas como MEI."
+        ],
+
+        "alertas": [
+          "Se o faturamento ultrapassar o limite legal, poderá ocorrer desenquadramento.",
+          "Verifique se sua atividade está entre as ocupações permitidas."
+        ]
+      },
+
+      {
+        "nome": "Simples Nacional",
+
+        "descricao": "Regime tributário destinado às micro e pequenas empresas.",
+
+        "limite_faturamento_anual": 4800000,
+
+        "forma_pagamento": "Tributos recolhidos por meio do DAS.",
+
+        "principais_caracteristicas": [
+          "Alíquota varia conforme faturamento e atividade.",
+          "Unifica diversos tributos em uma única guia.",
+          "Exige escrituração e acompanhamento contábil."
+        ],
+
+        "vantagens": [
+          "Permite crescimento acima do limite do MEI.",
+          "Tributação simplificada em relação a outros regimes."
+        ],
+
+        "desvantagens": [
+          "Maior complexidade administrativa.",
+          "A carga tributária varia conforme o enquadramento."
+        ]
+      },
+
+      {
+        "nome": "Lucro Presumido",
+
+        "descricao": "Regime normalmente utilizado por empresas que não optam pelo Simples Nacional.",
+
+        "principais_caracteristicas": [
+          "Tributos calculados sobre uma margem de lucro presumida.",
+          "Exige escrituração contábil e acompanhamento especializado."
+        ],
+
+        "vantagens": [
+          "Pode ser vantajoso dependendo da margem de lucro da empresa."
+        ],
+
+        "desvantagens": [
+          "Maior complexidade.",
+          "Maior necessidade de planejamento tributário."
+        ]
+      }
+    ],
+
+    "conceitos": [
+      {
+        "termo": "Faturamento Bruto",
+        "descricao": "Valor total recebido pela prestação dos serviços antes da dedução de impostos e despesas."
+      },
+      {
+        "termo": "Receita Líquida",
+        "descricao": "Valor restante após o pagamento de impostos e demais descontos."
+      },
+      {
+        "termo": "Pró-labore",
+        "descricao": "Remuneração paga ao proprietário pelo trabalho exercido na empresa."
+      },
+      {
+        "termo": "DAS",
+        "descricao": "Documento de Arrecadação do Simples Nacional utilizado para recolhimento de tributos."
+      },
+      {
+        "termo": "Nota Fiscal",
+        "descricao": "Documento que registra oficialmente a prestação do serviço."
+      }
+    ],
+
+    "boas_praticas": [
+      "Separar as finanças pessoais das finanças da empresa.",
+      "Registrar todas as receitas.",
+      "Guardar comprovantes de despesas.",
+      "Emitir nota fiscal quando obrigatório.",
+      "Reservar parte do faturamento para pagamento de tributos."
+    ],
+
+    "regras_para_precificacao": [
+      "Nunca definir o preço apenas com base no mercado.",
+      "Sempre incluir impostos no cálculo do preço.",
+      "Considerar custos fixos e variáveis.",
+      "Adicionar margem de lucro após considerar todos os custos.",
+      "Revisar a precificação periodicamente conforme o faturamento."
+    ],
+
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Preciso considerar impostos na formação do preço?",
+        "resposta": "Sim. Os tributos fazem parte do custo da prestação do serviço e devem ser considerados para evitar redução da margem de lucro."
+      },
+      {
+        "pergunta": "Posso escolher qualquer regime tributário?",
+        "resposta": "Não. O enquadramento depende da atividade exercida, do faturamento e dos requisitos legais."
+      },
+      {
+        "pergunta": "O agente escolhe meu regime tributário?",
+        "resposta": "Não. O agente apresenta informações gerais e pode sugerir pontos de atenção, mas a definição do regime deve ser feita com apoio de um contador."
+      }
+    ],
+
+    "avisos": [
+      "As informações possuem caráter educativo.",
+      "A legislação tributária pode sofrer alterações.",
+      "Para decisões fiscais ou tributárias, consulte um contador."
+    ]
+  }
+}
