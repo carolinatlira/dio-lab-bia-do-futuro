@@ -6,13 +6,11 @@ Os arquivos usados se encontram na pasta data:
 
 | Arquivo | Formato | Utilização no Agente |
 |---------|---------|---------------------|
-| `historico_atendimento.csv` | CSV | Contextualizar interações anteriores |
-| `perfil_investidor.json` | JSON | Personalizar recomendações |
-| `produtos_financeiros.json` | JSON | Sugerir produtos adequados ao perfil |
-| `transacoes.csv` | CSV | Analisar padrão de gastos do cliente |
+| `base_referencia_designer_grafico.json` | JSON | Serve como benchmark de mercado |
+| `conceitos_financeiros.json` | JSON | Fornece o embasamento financeiro das análises |
+| `dados_usuario.json` | JSON | Serve como fonte de dados personalizada |
+| `tributacao.json` | JSON | Orienta o agente sobre os principais regimes tributários e seus impactos na precificação |
 
-> [!TIP]
-> **Quer um dataset mais robusto?** Você pode utilizar datasets públicos do [Hugging Face](https://huggingface.co/datasets) relacionados a finanças, desde que sejam adequados ao contexto do desafio.
 
 ---
 
@@ -20,7 +18,8 @@ Os arquivos usados se encontram na pasta data:
 
 > Você modificou ou expandiu os dados mockados? Descreva aqui.
 
-[Sua descrição aqui]
+Deletei os arquivos: historico_atendimento.csv, perfil_investidor.json, produtos_financeiros.json e transacoes.csv.
+Adicionei os arquivos: base_referencia_designer_grafico.json, conceitos_financeiros.json, dados_usuario.json e tributacao.json.
 
 ---
 
@@ -29,12 +28,12 @@ Os arquivos usados se encontram na pasta data:
 ### Como os dados são carregados?
 > Descreva como seu agente acessa a base de conhecimento.
 
-[ex: Os JSON/CSV são carregados no início da sessão e incluídos no contexto do prompt]
+Os dados serão armazenados em arquivos JSON e carregados pelo sistema no início da execução. O agente acessará essas bases sempre que precisar consultar informações do usuário, conceitos financeiros, tributação e benchmarks de mercado para gerar análises e recomendações.
 
 ### Como os dados são usados no prompt?
 > Os dados vão no system prompt? São consultados dinamicamente?
 
-[Sua descrição aqui]
+O system prompt conterá apenas as instruções de comportamento do agente, definindo seu papel como consultor estratégico de precificação e suas regras de atuação. As bases de conhecimento (base_referencia_designer_grafico, conceitos_financeiros e tributacao) serão consultadas dinamicamente pelo sistema sempre que necessário. Os dados relevantes recuperados serão inseridos no contexto da requisição enviada ao modelo, juntamente com as informações fornecidas pelo usuário (dados_usuario), permitindo que o agente gere respostas personalizadas e fundamentadas.
 
 ---
 
@@ -43,13 +42,24 @@ Os arquivos usados se encontram na pasta data:
 > Mostre um exemplo de como os dados são formatados para o agente.
 
 ```
-Dados do Cliente:
-- Nome: João Silva
-- Perfil: Moderado
-- Saldo disponível: R$ 5.000
+System Prompt:
+Você é um agente especialista em precificação para designers gráficos freelancers. Sua função é analisar os dados do usuário, utilizar as informações da base de conhecimento e fornecer recomendações estratégicas, profissionais e fundamentadas. Não substitua um contador nem forneça aconselhamento jurídico.
 
-Últimas transações:
-- 01/11: Supermercado - R$ 450
-- 03/11: Streaming - R$ 55
-...
+Dados do Usuário:
+- Profissão: Designer Gráfico Freelancer
+- Experiência: Pleno
+- Regime tributário: Simples Nacional
+- Custos mensais: R$ 5.500
+- Horas faturáveis: 120 horas/mês
+- Valor cobrado atualmente: R$ 75/hora
+- Meta de lucro: 30%
+
+Base de Conhecimento (trecho):
+- Valor médio por hora para Designer Pleno: R$ 100/hora
+- Faixa de mercado: R$ 80 a R$ 130/hora
+- Margem de lucro recomendada: 30%
+- Regra: Alertar quando o valor cobrado estiver mais de 15% abaixo da média do mercado.
+
+Solicitação do usuário:
+"Estou cobrando um valor justo pelos meus serviços?"
 ```
